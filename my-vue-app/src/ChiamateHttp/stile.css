@@ -1,0 +1,140 @@
+#root {
+  margin: auto;
+  min-width: 70%; 
+  background-color: #86c08f;
+  justify-content: center;
+  display: flex;
+}
+
+
+table {
+  width: 98%; 
+  max-width: 750px; 
+  margin: 0 auto; 
+  border-collapse: collapse; 
+  font-family: 'Arial', sans-serif;
+  table-layout: fixed; 
+}
+
+
+table thead {
+  background-color: #2B542A; 
+  color: white; 
+}
+
+
+table tbody tr:nth-child(odd) {
+  background-color: #439840; 
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #6ACE66; 
+}
+
+
+table td, table th {
+  height: 50px; 
+  padding: 10px;
+  text-align: center; 
+  border: 1px solid #dee2e6; 
+}
+
+
+table tbody tr:hover {
+  background-color: #e9ecef; 
+}
+
+
+table {
+  border: 2px solid #40916c ; 
+  border-radius: 10px; 
+}
+
+
+table th {
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
+
+
+table th {
+  border-bottom: 2px solid #40916c; 
+}
+
+
+table td {
+  border-bottom: 1px solid #40916c; 
+}
+
+
+.home-logo {
+  width: 120px; 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.home-header {
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+
+.home-card {
+  background-color: 86c08f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  text-align: center;
+}
+
+.home-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.home-card p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.home-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.home-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.home-card a:hover {
+  text-decoration: underline;
+}
+
+
+.home-footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
